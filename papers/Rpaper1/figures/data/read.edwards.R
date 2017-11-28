@@ -1,4 +1,5 @@
-dat = read.table('mendel_edwards_1986.txt', stringsAsFactors = FALSE, header = TRUE)
+#dat = read.table('mendel_edwards_1986.txt', stringsAsFactors = FALSE, header = TRUE)
+dat = read.table('https://raw.githubusercontent.com/richarddmorey/nullHistoryAMPPS/master/papers/Rpaper1/figures/data/mendel_edwards_1986.txt', stringsAsFactors = FALSE, header = TRUE)
 
 num.ratio = sapply(strsplit(dat$expected,":"),function(el){
   as.numeric(el[1])/as.numeric(el[2])

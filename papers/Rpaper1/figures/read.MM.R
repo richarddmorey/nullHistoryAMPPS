@@ -1,4 +1,5 @@
-MM = scan('data/MM_data_1887_data.txt')
+#MM = scan('data/MM_data_1887_data.txt')
+MM = scan('https://raw.githubusercontent.com/richarddmorey/nullHistoryAMPPS/master/papers/Rpaper1/figures/data/MM_data_1887_data.txt')
 
 dim(MM) = c(17, 14)
 MM = t(MM)
