@@ -1,0 +1,31 @@
+
+cd text/bib
+curl_output=$(curl --connect-timeout 5 -o bibfile.php http://drsmorey.org/bibtex/bibfile.php)
+if [ $? -eq 0 ]; then
+  iconv -f CP1252 -t UTF-8 bibfile.php > bibfile.bib
+  mv bibfile.php bibfile.raw.bib
+fi
+
+cd ../..
+
+Rscript -e "rmarkdown::render('text/html_paper/paper_html.Rmd')"
+
+Rscript -e "rmarkdown::render('text/papaja_paper/paper_pdf.Rmd')" 
+
+open text/papaja_paper/paper_pdf.pdf
+
+shopt -s extglob
+cd text/sections/
+echo "\nMarkdown word count:"
+wc -w !(structure.Rmd) 
+
+echo "\ndetex word count:"
+detex ../papaja_paper/paper_pdf.tex | wc -w
+
+echo "\ntextutil word count:"
+textutil -convert txt -stdout ../html_paper/paper_html.html | wc -w
+
+echo "\nDone."
+
+Rscript -e "beepr::beep(); Sys.sleep(1);" 
+

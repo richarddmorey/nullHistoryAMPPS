@@ -1,0 +1,20 @@
+---
+title: "`r readLines('../meta_data/title.txt')`"
+author: Richard D. Morey and Saskia Homer
+date: "`r Sys.Date()`"
+bibliography: ../bib/bibfile.bib
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    dev: svg
+---
+
+> `r readLines('../meta_data/abstract.txt')`
+
+
+```{r child='../sections/structure.Rmd'}
+```
+
+
+# References
+

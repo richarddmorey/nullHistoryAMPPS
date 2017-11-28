@@ -1,0 +1,55 @@
+
+## Unbelievable nulls: LIGO and gravity waves
+
+Michelson's experiments using interferometers were not only important for their results; the Michelson interferometer is a tool that continues to be used in research. Michelson's interferometers were about 1 meter wide. Modern interferometers range from palm-sized and small enough to fit in a satelite [@Shepherd:etal:1993] to the immense Laser Interferometer Gravitational-Wave Observatory (LIGO). The LIGO project operates two interferometers, each with arms 4 km long.[^5]
+
+[^5]: Even LIGO will soon be eclipsed: the European Space Agency plans three satelites that will form an gravitational-wave-detecting interferometer with arms 2.5 *billion* meters long, called the Laser Interferometer Space Antenna (LISA). Imagine Michelson's astonishment if he learned that the fiddly instrument with which he struggled in a Potsdam cellar would one day be built on an interplanetary scale.
+
+The purpose of LIGO is not to find evidence for the luminiferous aether; rather, the LIGO team is hunting for gravitational waves. In Einstein's general theory of relativity, gravity is the result of changes in the geometry of space-time: a mass, such as a star, bends space-time around it. When masses accelerate in certain ways --- for example, black holes orbiting one another --- these distortions are supposed to cause gravitational waves that propagate away from the source.
+
+The search for gravitational waves serves two purposes: as a test of general relativity, and as new way of conducting astronomy. We can use gravity waves in much the same way as we use x-ray, visible-light, microwave, and radio astronomy to piece together a picture of the history of the universe. Unlike light, however, gravitational waves are difficult to detect, because they involve extraordinarily subtle effects as they pass. 
+
+This is where Michelson's interferometer plays a key role. Laser light is split, shot down the 4 km length of the two arms, bounced back from precisely suspended mirrors. The laser light is recombined and passed to a detector. If the arms are the same length, the two recombined waves cancel; no laser light is detected. When a gravitational wave passes an interferometer, the two perpendicular arms will change lengths (Figure \@ref(fig:LIGOapp1)). If one arm is longer than the other, then the cancelation is imperfect and some of the light makes it to the detector. Space-time distortion from a passing gravitational wave shows up as fluctuations in the amount of laser light at the detector.
+
+```{r LIGOapp1, echo=FALSE, fig.cap="How gravitational waves distort the length of the two perpendicular arms of the LIGO Michelson interferometers.", fig.width = 8, fig.height = 2.5, cache=FALSE}
+source('../../figures/LIGO_app1.R', chdir = TRUE)
+
+```
+
+Because fluctuations can happen for reasons other than gravitational waves, LIGO uses multiple sites to crosscheck its results: one in Washington and one in Louisiana. LIGO also cooperates with the smaller, 3 km Virgo interferometer in Italy (Figure \@ref(fig:LIGOapp2)). The LIGO team looks for "unusual" events that occur across the detectors. Looking for correlations across these sites allows noisy fluctuations in only one detector to be discounted.
+
+
+```{r LIGOapp2, echo=FALSE, fig.cap="Locations of the Laser Interferometer Gravitational-Wave Observatory (LIGO) sites in the United States, and the Virgo interferometer in Italy.", fig.width = 6, fig.height = 5.2}
+source('../../figures/LIGO_app2.R', chdir = TRUE)
+
+```
+
+LIGO's first attempt at detecting gravitational waves in 2002 yielded a null result: that is, it was deemed consistent with background noise [@LIGO:2004]. Interestingly, this was expected; the first run was before the detectors were at full sensitivity. The introduction to the paper is worth quoting directly:
+
+> "The first detection of gravitational wave bursts requires stable, well understood detectors, well-tested and robust data processing procedures, and clearly defined criteria for establishing confidence that no signal is of terrestrial origin. None of these elements were firmly in place as we began this first LIGO science run; rather, this run provided the opportunity for us to understand our detectors better, exercise and hone our data processing procedures, and build confidence in our ability to establish the detection of gravitational wave bursts in future science runs. Therefore, the goal for this analysis is to produce an upper limit on the rate for gravitational wave bursts, even if a purely statistical procedure suggests the presence of a signal above background." [@LIGO:2004, p. 102001-3]
+
+Unlike Michelson's conclusion from his 1881 experiment, the LIGO team was unwilling to accept the null on the basis of a noisy experiment; like Michelson and Morley's 1887 experiment, the LIGO state their results in terms of placing an upper limit on a quantity of interest.[^8] 
+
+[^8]: It is difficult to imagine a prominent psychology journal publishing a null result from an experiment whose purpose is to advance understanding of a methodology. Such a result would almost certainly be rejected as unimportant.
+
+From the first failure followed more failures. Six more runs over more than a decade would yield no evidence --- at least none the team was willing to accept as inconsistent with background noise --- of graviational waves. LIGO became "advanced LIGO" as the team improved the sensitivity of their instruments. With each failure using a more sensitive device, a new upper limit was established. The titles tell the story: "Upper limits on gravitational-wave bursts in LIGO's second science run" [@LIGO:2005]; "Upper limits on gravitational wave emission from 78 radio pulsars" [@LIGO:2007]; "Improved Upper Limits on the Stochastic Gravitational-Wave Background from 2009-2010 LIGO and Virgo Data" [@LIGO:2014]. This work spawned about 100 papers from 2004 to 2016, characterizing the instruments, algorithms and their improvements, or presenting data from their science runs. 
+
+Finally, in 2016 the team published a paper announcing the detection of gravitational waves from the merger of two black holes [@LIGO:2016]. We are more interested in what happened in the years before the detection. Why were the LIGO team unwilling to accept the null and hence the possibility that there were no gravitational waves? What was the difference between Michelson and Morley's situation in the late 19th century and the LIGO team's situation in the early 21st? We believe there are several.
+
+**The prospect of more sensitive experiments.** The LIGO team was constantly improving their instruments, and knew that more sensitive tests were just around the corner. 
+
+**Strong theoretical expectations and low sensitivity** The LIGO team knew early on that their instruments were not sensitive enough to detect many gravitational wave events of interest, should they exist. Unlike Michelson and Morley, LIGO's null results were not unexpected from the theory.
+
+**No theoretical rival.** Einstein's general theory of relativity has withstood numerous tests over the past century. There is no rival to the theory that could take its place should gravitational waves not exist. Plunging a field into crisis is not something to be taken lightly, particularly at the expense of such a well-established theory.
+
+These three conditions made the acceptance of the null hypothesis difficult, even on the basis of multiple "failed" LIGO runs. Luckily, the persistence paid off. Since the 2016 detection, the team has made several new detections. The ability to consistently detect and characterize gravitational waves has the potential to usher in a new era of gravitational wave astronomy, which would not have happened if the team had accepted the null and given up.
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
+pdf/*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -80,7 +82,7 @@ acs-*.bib
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
 *.?end
-*.[1-9]
+#*.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
 *.[1-9]R
@@ -218,3 +220,15 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+.Rproj.user
+
+papers/pcurve/text/html_paper/pcurve_html_cache/*
+papers/pcurve/text/papaja_paper/pcurve_pdf_cache/*
+papers/review/text/html_paper/necromancy_html_cache/*
+papers/review/text/papaja_paper/necromancy_pdf_cache/*
+
+.Rhistory
+
+papers/Rpaper1/text/html_paper/paper_html_cache/*
+papers/Rpaper1/text/papaja_paper/paper_pdf_cache/*
+

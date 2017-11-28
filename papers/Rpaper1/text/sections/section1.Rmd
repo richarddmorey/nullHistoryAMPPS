@@ -1,0 +1,60 @@
+
+## Michelson, Morley, and the luminiferous aether
+
+For many centuries, there were two competing theories explaining the behavior of light. Emission theory, championed by Newton, held that light was made up of particles that moved in straight lines called rays. The opposing view, developed by Huygens, held that light was a wave. In the eighteenth century, the emission view was dominant. Emission theory is perhaps most consistent with our everyday observations of light; light appears to move in straight lines, as a particle would. 
+
+In the beginning of the nineteenth century the wave theory of light gained the upper hand among physicists due to the discovery of interference phenomena. When two waves of different phases meet, they cancel and reinforce one another in complicated patterns. Light behaves this way: when light is forced through slits, the light from one slit interferes with light from the other, and vice versa. Interference phenomena cannot be easily explained by an emission theory.
+
+Expectations for light waves were built on other waves that people understood: waves in water or air. If light was a wave, it must be a wave in some medium. Whatever this medium is, it carries starlight above the earth and torchlight below it. It must be able to pass through solid matter as light moves through glass, and it must exist in a vaccum. Wave-theorists gave this mysterious medium a name: the *luminiferous aether*.
+
+Physicists thought that a sea of luminiferous aether existed thoughout space, providing a fixed reference against which everything moves. As the earth revolves around the Sun, it is passing through the aether. Facts known at the time ruled out the idea that the aether was dragged along with the Earth; hence, the Earth must be moving through the aether at some speed.
+
+But at what speed? This was the question Michelson and Morley sought to answer. Michelson had invented and refined an ingeneous experimental device now known as a Michelson interferometer. The 1887 version is shown in Figure \@ref(fig:MMapp), in both perspective view (A) and top-down view (B).
+
+The basic idea behind the Michelson interferometer is that it light comes from a common source (Figure \@ref(fig:MMapp)B, at $a$) and is focused by a lens. The light is split ($b$) and sent along two perpendicular paths, where each beam bounces back and forth between sets of mirrors. A final mirror along each path ($e$ and $e_i$) sends each beam back the way it came. The beams are recombined at $b$ and pass to the eyepiece ($f$). The lengths of the perpendicular paths can be made equal by carefully adjusting a mirror along one of the paths ($e_i$).
+
+```{r MMapp, echo=FALSE, fig.cap="Michelson and Morley's device [-@Michelson:Morley:1887, figures 3 and 4 from the manuscript]. A: Perspective drawing of the device without its wooden cover. The surface was about 1.5m square. B: Schematic of the table surface. Light emitted from the light source $a$ through a lens hits a beam splitter $b$ and is sent along one of two perpendicular paths. The light is then reflected back and forth by mirrors at $d$ and $d_i$ (and opposite), until they are reflected back by mirror $e$ or $e_i$. They pass back though the beam splitter and part of both beams is sent to an eyepiece at $f$. The mirror $e_i$ is finely adjustable so that the two beams can be equated in length. An extra beam splitter $c$ is used to ensure that both beams move through the same amount of glass.", fig.width = 6, fig.height = 5.2}
+source('../../figures/MM_app.R', chdir = TRUE)
+```
+
+When Michelson looked into the eyepiece while he was sending white light into the interferometer, he saw a pattern of vertical dark and light bands, called "fringes", formed by the interference between the various components of white light. After calibration, Michelson would rotate the stone table on which the interferometer was set. If one imagines the Earth --- and with it, the interferometer --- moving through the aether, this rotation changes how the two arms are moving with the aether "wind". At some point in the rotation, one arm will be facing into the wind, and the other arm perpendicular to it; at another point, the opposite.
+
+The light moves with the aether, but the interferometer itself moves with the Earth. If one arm is moving parallel to the aether wind and the other perpendicular to it, the light beams in the two arms move different distances. Any difference between the arms will cause the interference fringes to shift to one side by an amount that depends on the speed of the Earth's motion through the aether. Based on the 30 km/s speed of the Earth in its orbit, Michelson and Morley expected the fringes to shift by a maximum of 0.4 fringe widths. This maximum shift would occur when one arm is facing into the aether wind and the other perpendicular to it. The minimum shift was 0, when both arms face into the aether wind at the same angle (see the top of Figure \@ref(fig:MMdata)).
+
+Michelson (or Morley) gave the table a slow but steady spin and measured the shift at 16 rotation angles, which worked out to once every 23 seconds. They repeated the process consecutively six times, at noon and in the evening, on three different days. The fringe shift measurements were detrended to remove the effects of ambient temperature changes, and then averaged. Michelson and Morley expected a sine curve with amplitude 0.4 fringe widths; Figure \@ref(fig:MMdata) shows what they found.
+
+```{r MMdata, echo=FALSE, fig.cap="The data from Michelson and Morley's experiment, as presented in the manuscript. The top series shows the average of the detrended noon runs, and the bottom the detrended evening runs. The $y$ axis is the amount of shift in fringes. The dotted curve shows the expected pattern at 1/8 the expected amplitude of 0.4. In the schematic above, the point marked 'a' represents the light source on the sketch of the instrument."}
+source('../../figures/plot.MM.R', chdir = TRUE)
+
+```
+
+There does not appear to be any discernable relationship between the angle of the table's rotation and the fringe shift. There was so little effect relative to the expected 0.4 fringe shifts that they did not show the expected effect in their figure at all; the maximum value in their figure is *1/8* of the predicted value, because showing the predicted value in the figure would hide all the variability in the data. In spite of the smallness of the effect, Michelson and Morley did not directly "accept" the null. Instead, they say that
+
+> "[T]he displacement to be expected was 0.4 fringe. The actual displacement was certainly less than the twentieth part of this, and probably less than the fortieth part. But since the displacement is proportional to the square of the velocity, the relative velocity of the earth and the ether is probably less than one sixth the earth's orbital velocity, and certainly less than one-fourth...It appears, from all that precedes, reasonably certain that if there be any relative motion between the earth and the luminiferous ether, it must be small..." (Michelson & Morley, 1887, p. 341)
+
+Indeed, this result would continue to be refined for decades using more precise interferometers, and at different times of the year.[^2] Michelson and Morley's result is remembered as having established that there was no aether. Why is Michelson and Morley's result considered convincingly null, even though Michelson and Morley merely report an upper bound on the possible speed of the Earth moving through the aether?
+
+[^2]: A recent replication by @Eisele:etal:2009 used an interferometer 100 million times as precise as Michelson and Morley's device. The result was still null.
+
+**A highly-sensitive experiment.** Michelson and Morley's 1887 experiment was actually the second such experiment that Michelson published. @Michelson:1881 presented similar results, but using a device 1/10 as sensitive.[^4] Other researchers noted that even before accounting for a calculation mistake, "[the fringe shift] to be measured...was already barely beyond the limits of the errors of experiment" and hence "the conclusion drawn...might well be questioned." Hence Michelson and Morley's 1887 experiment was designed as a more sensitive replication. In sample size terms, the relative sensitivity of the 1887 device is akin to increasing the sample size by a factor of 100. Thankfully, this was possible due to a clever arrangement of mirrors, and not a 100-fold increase in costs. The resulting high sensitivity made for a more convincing null result.
+
+[^4]: Michelson's 1881 paper is a model of scientific transparency. A sizeable portion of the paper is taken up describing various difficulties encountered in using his first experimental apparatus. Interestingly, although the first paper is based on results from a considerably less precise instrument, Michelson's earlier conclusions are more definitive: "The interpretation of these results is that there is no displacement of the interference bands. The result of the hypothesis of a stationary ether is thus shown to be incorrect, and the necessary conclusion follows that the hypothesis is erroneous." 
+
+
+**A parametric manipulation.** When we discuss null results in psychology, we often refer to a single effect that is not statistically significant. Michelson and Morley, however, were looking for a data pattern, rather than a single effect. The sine wave pattern expected due to the rotation of the table --- a parameteric manipulation of the size of the expected "effect" --- did not present itself. The test of the theory was therefore much stronger than it would have been if only one rotational angle had been considered.
+
+**A theoretical expectation.** The speed of the earth moving around the sun provided a value against which the null result could be compared. Michelson and Morley admit that it is possible that other motion might come into play besides the Earth moving around the sun --- for instance, the sun moving through the galaxy --- but to get such a null result, these motions would all have to add up *just right* to cancel out. This would be quite the coincidence, and so Michelson and Morley conclude that "chances are much against it." They note, however, that repeating the experiment at longer time intervals would allow testing this possibility.
+
+
+**Competing theories.** As previously mentioned, in the nineteenth century the wave theory of light was dominant, but was not the only theory. The competing emission theory had no need for aether. Emission theory continued to be modified to account for new evidence into the late nineteenth and early twentieth century [e.g. @Ritz:1908].
+
+Additionally, neither of the two major twentieth century theories in physics required the luminiferous aether. Einstein's special theory of relativity [@Einstein:1905] made the aether redundant, and quantum electrodynamics [@Feynman:1985] accounted for all the wave properties of light without needing a propagation medium. 
+
+These four factors --- the highly-sensitive experiment, the parametric manipulation of the expected effect, a result far below a theoretical expectation, and competing theories able to account for the effect --- combine to create the most important null result in the history of science. In making the luminiferous aether unnecessary, Michelson and Morley's results allowed physics move forward without it.
+
+
+
+
+
+
+

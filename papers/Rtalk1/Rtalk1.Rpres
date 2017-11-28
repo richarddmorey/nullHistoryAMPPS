@@ -1,0 +1,33 @@
+A talk about the R project
+========================================================
+author: 
+date: 
+autosize: true
+
+
+```{r, include=FALSE}
+source('../Rpaper1/R_utility/settings.R')
+```
+
+First Slide
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+source('../Rpaper1/figures/fig_surface.R')
+```

@@ -1,0 +1,63 @@
+---
+title             : "`r readLines('../meta_data/title.txt')`"
+shorttitle        : "`r readLines('../meta_data/short_title.txt')`"
+author: 
+  - name          : "Richard D. Morey"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "School of Psychology, 70 Park Place, Cardiff, UK"
+    email         : "richarddmorey@gmail.com"
+
+  - name          : "Saskia Homer"
+    affiliation   : "1"
+    corresponding : no    # Define only one corresponding author
+    address       : "School of Psychology, 70 Park Place, Cardiff, UK"
+    email         : "homerse@cardiff.ac.uk"
+
+affiliation:
+  - id            : "1"
+    institution   : "School of Psychology, Cardiff University"
+
+
+author_note: >
+  This draft was compiled at `r format(Sys.time(), "%a %b %d %X %Y")` (`r Sys.timezone()`).
+
+  `r readLines('../meta_data/author_note.txt')`
+
+abstract: >
+  `r readLines('../meta_data/abstract.txt')`
+  
+keywords          : "paper"
+wordcount         : "5987"
+
+bibliography      : ../bib/bibfile.bib
+
+figsintext        : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+
+lang              : "english"
+class             : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r include = FALSE}
+library("papaja")
+library("knitr")
+opts_chunk$set(dev="pdf")
+```
+
+```{r child='../sections/structure.Rmd'}
+```
+
+\newpage
+
+# References
+```{r create_r-references}
+#r_refs(file = "bibfile.bib")
+```
+
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
