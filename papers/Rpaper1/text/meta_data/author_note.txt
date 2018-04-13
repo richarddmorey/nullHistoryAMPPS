@@ -1,1 +1,3 @@
 Text, code, and data from Michelson and Morley (1887) and Mendel (1866) are also available are available at https://github.com/richarddmorey/nullHistoryAMPPS. All figures are licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Author Contributions: The main concept of the paper is due to author RM, as are the two physics examples; author SH primarily contributed the genetics example. Both RM and SH developed the commentary on these examples. Author TP contributed the philosophy of science elements.

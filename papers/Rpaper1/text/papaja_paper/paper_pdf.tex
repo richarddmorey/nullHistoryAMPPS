@@ -76,7 +76,7 @@
 \fi
 \hypersetup{breaklinks=true,
             pdfauthor={},
-            pdftitle={Of waves and peas: Accepting the null across scientific history},
+            pdftitle={Beyond statistics: accepting the null hypothesis in mature sciences},
             colorlinks=true,
             citecolor=blue,
             urlcolor=blue,
@@ -113,15 +113,15 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Essential manuscript parts
-  \title{Of waves and peas: Accepting the null across scientific history}
+  \title{Beyond statistics: accepting the null hypothesis in mature sciences}
 
   \shorttitle{Historical nulls}
 
 
-  \author{Richard D. Morey\textsuperscript{1}~\& Saskia Homer\textsuperscript{1}}
+  \author{Richard D. Morey\textsuperscript{1}, Saskia Homer\textsuperscript{1}, \& Travis Proulx\textsuperscript{1}}
 
-  \def\affdep{{"", ""}}%
-  \def\affcity{{"", ""}}%
+  \def\affdep{{"", "", ""}}%
+  \def\affcity{{"", "", ""}}%
 
   \affiliation{
     \vspace{0.5cm}
@@ -129,30 +129,37 @@
 
   \authornote{
     \newcounter{author}
-    This draft was compiled at Tue Nov 28 11:02:32 2017 (Europe/London).
-    Text, code, and data from Michelson and Morley (1887) and Mendel (1866)
-    are also available are available at
+    This draft was compiled at Fri Apr 13 10:08:29 2018 (NA). Text, code,
+    and data from Michelson and Morley (1887) and Mendel (1866) are also
+    available are available at
     \url{https://github.com/richarddmorey/nullHistoryAMPPS}. All figures are
-    licensed \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.
+    licensed \href{https://creativecommons.org/licenses/by/4.0/}{CC BY
+    4.0}.Author Contributions: The main concept of the paper is due to
+    author RM, as are the two physics examples; author SH primarily
+    contributed the genetics example. Both RM and SH developed the
+    commentary on these examples. Author TP contributed the philosophy of
+    science elements.
 
                       Correspondence concerning this article should be addressed to Richard D. Morey, School of Psychology, 70 Park Place, Cardiff, UK. E-mail: \href{mailto:richarddmorey@gmail.com}{\nolinkurl{richarddmorey@gmail.com}}
-                          }
+                                    }
 
 
   \abstract{Scientific theories explain phenomena using simplifying assumptions: for
 instance, that the speed of light does not depend on the direction in
 which the light is moving, or that the height of a pea plant depends on
 a small number of alleles randomly obtained from its parents. The
-ability to supporting these simplifying assumptions with statistical
+ability to support these simplifying assumptions with statistical
 evidence is crucial to scientific progress, though it might involve
 ``accepting'' the null hypothesis. We review two historical examples
 where statistical evidence was used to accept a simplifying assumption
 (rejecting the luminiferous aether and genetic theory) and one where the
 null hypothesis was not accepted in spite of repeated failures
-(gravitational waves), drawing lessons from each.}
-  \keywords{paper \\
+(gravitational waves), drawing lessons from each. We emphasize the role
+of the scientific context in the acceptance of the null: accepting the
+null is never a purely statistical affair.}
+  \keywords{null hypothesis, philosophy of science, statistics \\
 
-    \indent Word count: 5987
+    
   }
 
 
@@ -194,33 +201,108 @@ The stone slab sat on a piece of wood which itself was floating in a
 pool of liquid mercury. Around noon Michelson gave the table a push,
 causing it to slowly spin. Every 22.5 degrees of rotation --- about as
 many seconds --- he looked through the eyepiece and scribbled down a
-number. That afternoon he wrote down over one-hundred readings, stopping
-only to give the table a small push to keep it spinning. He came back
-that evening for another hundred measurements, repeating the process
-again over the next two days.
+number. That afternoon he took over one-hundred readings, stopping only
+to give the table a small push to keep it spinning. He came back that
+evening for another hundred measurements, repeating the process again
+over the next two days.
 
 The numbers Michelson and his colleague Edward Morley scribbled down in
 1887 would eventually be among the most celebrated results in science.
-What they found --- nothing --- was a quandary for popular nineteenth
-century theories of light propagation. Michelson and Morley's (1887)
-result foreshadowed not one but \emph{two} revolutions in physics --
-special relativity and quantum theory -- and eventually won Michelson
-the Nobel prize in physics.
+What they found --- or rather, what they didn't find --- was a quandary
+for popular nineteenth century theories of light propagation. Michelson
+and Morley's (1887) result foreshadowed not one but \emph{two}
+revolutions in physics --- special relativity and quantum theory --- and
+eventually won Michelson the Nobel prize in physics.
 
-Inferring nothing --- \enquote{accepting the null} as it is sometimes
-called --- happens in many contexts in science. One might infer that a
-manipulation has no effect. One might also infer support for a theory
-from failures to find results that differ very much from a theoretically
-predicted value. We present three historical vignettes involving null
-inferences (or lack thereof). The first is Michelson and Morley's failed
-experiment; the second, Mendel's famous (and controversial) genetic
-experiments (Mendel, 1866, Fisher (1936)); and the third, the recent
-Nobel-prize-winning findings by the Laser Interferometer
-Gravitational-Wave Observatory (LIGO) team. Taken together, these
-vignettes offer lessons about null hypotheses in healthy science.
+It has been noted for decades that psychological science largely rests
+on the assertion of statistical differences using null hypothesis
+significance tests rather than resting on understanding sameness,
+patterns, or regularity (see e.g. Gigerenzer, Krauss, \& Vitouch, 2004;
+Meehl, 1978; Sterling, Rosenbaum, \& Weinkam, 1995). We present three
+historical vignettes involving null inferences (or lack thereof) in
+mature sciences. None of these inferences rest on significant
+differences from null hypothesis significance tests, but they are
+nevertheless examples of scientific progress. The first is Michelson and
+Morley's null result; the second, Mendel's famous (and controversial)
+genetic experiments (Fisher, 1936; Mendel, 1866); and the third, the
+recent Nobel-prize-winning findings by the Laser Interferometer
+Gravitational-Wave Observatory (LIGO) team. Understanding how the
+scientific context supports null inferences is key to understanding why
+statistical nulls have traditionally been ignored in psychology.
 
+\hypertarget{kuhnian-paradigms-and-normal-science}{%
+\subsection{Kuhnian paradigms and Normal
+Science}\label{kuhnian-paradigms-and-normal-science}}
+
+In the Structure of Scientific Revolutions, Kuhn (1962) offers a
+generally descriptive account of how all sciences appear to have changed
+over time. To the extent that these changes can be construed in terms of
+developmental progress, they follow from motivations that appear common
+among scientific enterprises: to generate understanding of a wide range
+of phenomena and to provide increasingly specified guides for further
+scientific research. Kuhn illustrates this general trajectory by
+identifying two stages of development.
+
+The first of these stages is termed \emph{pre-paradigm} and is marked by
+an absence of any unifying perspectives. At this stage, theories
+proliferate at the pace of observed effects, where these theories are
+little more than descriptions of a given phenomenon (e.g., when \emph{X}
+is placed over a flame, \emph{Y} occurs). Because these theories offer
+little regarding underlying mechanisms, they present no clear hypotheses
+beyond the replication of the original effect. They are essentially
+tautological, reflecting little in the way of general understanding of a
+phenomenon, and unable to produce novel predictions.
+
+According to Kuhn, all scientific communities eventually acknowledge
+this limitation and gradually make their way to a standard phase of
+scientific inquiry. In the \emph{Normal Science} phase, an underlying
+phenomenon is hypothesized to manifest in the various previously
+unrelated empirical phenomena (e.g., space-time or genes). This
+hypothesized unifying phenomenon lies at the core of a new paradigm, a
+broad nest of theoretical conceits that shape predictions for future
+observations. Increasingly specifying the nature of these conceits ---
+theory articulation --- guides the identification of novel effects
+(rather than the generation of novel \enquote{theories}) and subsequent
+research efforts.
+
+Kuhn's depiction of Normal Science progress does not rest on a
+particular epistemic school of thought (e.g., Popper, 1959). Rather,
+paradigms are understood to facilitate progress by motivational means,
+insofar as they represent progress narratives that encourage scientists
+to predict and accumulate paradigm-verifying effects (rather than
+perseverate on potentially falsifying anomalies, Popper, 1959 -- see
+also the positive heuristic, Lakatos, 1970).
+
+The motivational and verificationist realities of Normal Science have
+fundamental implications for how the \enquote{null hypothesis} is
+interpreted, and whether or not it is \enquote{accepted.} In a Normal
+Science setting, multiple explanatory paradigms offer competing accounts
+of demonstrated effects and differing predictions for what may be
+observed in the future. When hypotheses following from a given paradigm
+are not supported by the data, the null hypotheses can be readily
+accepted, as the observed \enquote{null} effect may offer support for a
+competing paradigm and represent an additional element of accumulated
+knowledge. Alternatively, Normal Science may be dominated by a single,
+broad explanatory paradigm that can account for the bulk of prior
+findings, and continues to make successful predictions for demonstrable
+effects. In this setting, scientists may be extremely reluctant to
+accept a null hypothesis that would challenge a paradigm that must be
+correct, insofar as it has been otherwise verified in dozens (hundreds)
+of prior experiments, and because there are no other options, meaning
+that the acceptance of the null could lead to a scientific crisis.
+
+We discuss three examples of null effects demonstrated within the
+paradigmatic context of Normal Science. The first and the third are from
+nineteenth and twenty-first century physics, respectively; the second,
+from nineteenth- and twentieth-century biology. In each case, we
+emphasize the relationship of the statistical inference for or against a
+null hypothesis in the context of the relevant paradigm. Following this,
+we contrast the situation in Normal Science with that in present-day
+psychology.
+
+\hypertarget{michelson-morley-and-the-luminiferous-aether}{%
 \subsection{Michelson, Morley, and the luminiferous
-aether}\label{michelson-morley-and-the-luminiferous-aether}
+aether}\label{michelson-morley-and-the-luminiferous-aether}}
 
 For many centuries, there were two competing theories explaining the
 behavior of light. Emission theory, championed by Newton, held that
@@ -377,13 +459,9 @@ device 1/10 as sensitive.\footnote{Michelson's 1881 paper is a model of
 that even before accounting for a calculation mistake, \enquote{{[}the
 fringe shift{]} to be measured\ldots{}was already barely beyond the
 limits of the errors of experiment} and hence \enquote{the conclusion
-drawn\ldots{}might well be questioned.} Hence Michelson and Morley's
-1887 experiment was designed as a more sensitive replication. In sample
-size terms, the relative sensitivity of the 1887 device is akin to
-increasing the sample size by a factor of 100. Thankfully, this was
-possible due to a clever arrangement of mirrors, and not a 100-fold
-increase in costs. The resulting high sensitivity made for a more
-convincing null result.
+drawn\ldots{}might well be questioned.} Thankfully, the 10-fold increase
+in sensitivity was possible due to a clever arrangement of mirrors. The
+resulting high sensitivity made for a more convincing null result.
 
 \textbf{A parametric manipulation.} When we discuss null results in
 psychology, we often refer to a single effect that is not statistically
@@ -405,7 +483,7 @@ Morley conclude that \enquote{chances are much against it.} They note,
 however, that repeating the experiment at longer time intervals would
 allow testing this possibility.
 
-\textbf{Competing theories.} As previously mentioned, in the nineteenth
+\textbf{Competing paradigms.} As previously mentioned, in the nineteenth
 century the wave theory of light was dominant, but was not the only
 theory. The competing emission theory had no need for aether. Emission
 theory continued to be modified to account for new evidence into the
@@ -419,13 +497,14 @@ light without needing a propagation medium.
 
 These four factors --- the highly-sensitive experiment, the parametric
 manipulation of the expected effect, a result far below a theoretical
-expectation, and competing theories able to account for the effect ---
+expectation, and a competing theory able to account for the effect ---
 combine to create the most important null result in the history of
 science. In making the luminiferous aether unnecessary, Michelson and
 Morley's results allowed physics move forward without it.
 
+\hypertarget{nuller-than-null-the-case-of-mendel-and-fisher}{%
 \subsection{Nuller than null: the case of Mendel and
-Fisher}\label{nuller-than-null-the-case-of-mendel-and-fisher}
+Fisher}\label{nuller-than-null-the-case-of-mendel-and-fisher}}
 
 Gregor Mendel, a monk of seemingly impeccable character, conducted his
 famous experiments on peas over the years from 1856 to 1863. The
@@ -447,7 +526,7 @@ Should a good fit to a true theory be surprising? As Pilgrim (1984) puts
 it, \enquote{Mendel's results agreed with his theory. Why shouldn't
 they, since his theory was correct?} Fisher (1936) took a different
 view. He believed the results were \emph{too} good, and that this was
-evidence of falsification. Even worse, Fisher suggests that this
+evidence of data falsification. Even worse, Fisher suggests that this
 possibly \enquote{contravene{[}s{]} the weight of the evidence supplied
 in detail by his paper as a whole} (p.~132). This is not to say Mendel
 was wrong, but that his results --- which we review subsequently ---
@@ -670,6 +749,7 @@ Luckily Mendel described his experiments in sufficient detail that they
 can be easily repeated. Doubt about any claim can be put to rest by
 rigorous replication of the procedure, provided that the theory is
 defined clearly enough to decide what a \enquote{replication} would be.
+Providing this clarity is one of the roles of a scientific paradigm.
 
 \textbf{Interpretation of results occurs in the context of scientific
 theory.} This seems especially obvious in the case of Mendel, given that
@@ -683,9 +763,13 @@ theory from three simple postulates (1936, pp.~123-124); he also
 believed that Mendel may have done so. Fisher thought it possible that
 Mendel's experiments were a \enquote{carefully planned demonstration of
 his conclusions} (Fisher, 1936, p. 124), rather than their sole support.
+Mendel's theory was strong enough to withstand Fisher's critique of the
+evidence, in contrast to more recent psychological results subjected to
+similar scrutiny (see e.g. Simmons \& Simonsohn, 2017).
 
+\hypertarget{unbelievable-nulls-ligo-and-gravity-waves}{%
 \subsection{Unbelievable nulls: LIGO and gravity
-waves}\label{unbelievable-nulls-ligo-and-gravity-waves}
+waves}\label{unbelievable-nulls-ligo-and-gravity-waves}}
 
 Michelson's experiments using interferometers were not only important
 for their results; the Michelson interferometer is a tool that continues
@@ -783,14 +867,14 @@ interest.\footnote{It is difficult to imagine a prominent psychology
   to advance understanding of a methodology. Such a result would almost
   certainly be rejected as unimportant.}
 
-From the first failure followed more failures. Six more runs over more
-than a decade would yield no evidence --- at least none the team was
-willing to accept as inconsistent with background noise --- of
-graviational waves. LIGO became \enquote{advanced LIGO} as the team
-improved the sensitivity of their instruments. With each failure using a
-more sensitive device, a new upper limit was established. The titles
-tell the story: \enquote{Upper limits on gravitational-wave bursts in
-LIGO's second science run} (The LIGO Scientific Collaboration, 2005);
+From the first failure followed more. Six additional runs over more than
+a decade would yield no evidence --- at least none the team was willing
+to accept as inconsistent with background noise --- of graviational
+waves. LIGO became \enquote{advanced LIGO} as the team improved the
+sensitivity of their instruments. With each failure using a more
+sensitive device, a new upper limit was established. The titles tell the
+story: \enquote{Upper limits on gravitational-wave bursts in LIGO's
+second science run} (The LIGO Scientific Collaboration, 2005);
 \enquote{Upper limits on gravitational wave emission from 78 radio
 pulsars} (LIGO Scientific Collaboration, 2007); \enquote{Improved Upper
 Limits on the Stochastic Gravitational-Wave Background from 2009-2010
@@ -832,204 +916,279 @@ characterize gravitational waves has the potential to usher in a new era
 of gravitational wave astronomy, which would not have happened if the
 team had accepted the null and given up.
 
-\subsection{Conclusion}\label{conclusion}
+\hypertarget{conclusion}{%
+\subsection{Conclusion}\label{conclusion}}
 
-We have explored three famous experiments. Michelson and Morley's null
-result is understood as having truly shown that a theoretical
-light-propagation medium, the luminiferous aether, was unsupported and
-unnecessary. Mendel presented a failure to find deviations from
-theoretical values, but Fisher noted that these results were actually
-\emph{too close} to their theoretical values, calling the evidential
-value of the data into doubt. Finally, the LIGO team failed many times
-over more than a decade to detect gravitational waves, but never claimed
-evidence that gravitational waves do not exist. Eventually detecting
-gravitational waves won them the Nobel prize in physics in 2017. We can
-take several lessons from these three cases.
+In these three examples, a type of statistical null was rejected or
+accepted in relation to pragmatic considerations of what would
+facilitate the accumulation of scientific knowledge. Michelson and
+Morley's result, for instance, appeared more compelling because an
+alternative to wave theory could account for the result. On the other
+hand, there is no alternative to general relativity, so the lack of
+gravitational waves would throw physics into crisis. Fisher noted that
+Mendel could have derived his predictions from three simpler theoretical
+postulates, rather than from the data themselves. In all three cases,
+the evidential value of the data was considered along with higher-level
+theoretical concerns within a theoretical paradigm. The experiments were
+not meant to show an isolated effect; rather, they were tests or
+demonstrations of aspects of a broad theory.
 
-\textbf{\enquote{Accepting the null} is not a purely statistical affair;
-it occurs in a theoretical context.} Michelson and Morley's result
-appeared more compelling because an alternative to wave theory could
-account for the result. On the other hand, there is no alternative to
-general relativity, so the lack of gravitational waves would throw
-physics into crisis. Mendel could have derived his predictions from
-three simpler theoretical postulates, and rather tham from the data
-themselves. In all three cases, the evidential value of the data was
-considered along with higher-level theoretical concerns.
+In contrast, paradigmatic research programs --- with concordant null
+hypotheses --- have become scarce in the contemporary field of
+psychology. The paradigmatic progress exemplified by these three
+examples would not be possible within psychology's current research
+landscape, which closely aligns with the Kuhnian description of a
+Pre-paradigm Science. This was not always true; in the mid twentieth
+century, psychological theorising had coalesced into several broad
+paradigmatic perspectives (e.g., Cognitive Dissonance Theory, Festinger,
+1957). However, the subsequent decades saw psychology transform back
+into a discipline more clearly characterized by a pre-paradigm
+population of micro-theories. Often, these micro-theories consist solely
+of the described effect, followed by the word \enquote{theory} or
+\enquote{model}, resulting in empty restatements. Insofar as they can be
+construed as unfalsifiable, one might call them pseudo-theories
+(Fiedler, 2004). To the extent that these descriptive theories are
+arrived at entirely post-hoc, they can constitute entire pseudoscience
+disciplines (Lakatos, 1970).
 
-\textbf{Distinguishing between null and small effects requires repeated,
-careful, high-sensitivity experiments.} All three groups of
-experimenters --- Michelson and Morley, Mendel, and the LIGO team ---
-are celebrated for their careful experimentation. Michelson invented
+Consider the facial feedback hypothesis (Strack, Martin, \& Stepper,
+1988), in which feedback from the face is assumed to modulate emotion.
+Wagenmakers et al. (2016) recently attempted to replicate the 1988
+study, obtaining a null result across several labs and thousands of
+participants. In Normal Science, this might lead to a paradigmatic
+crisis or new boundary conditions, either of which could be construed as
+progress. Instead, Wagenmakers et al. (2016) simply claim a failure to
+replicate, leaving Strack (2016) to offer a series of \emph{post hoc}
+reasons why it might not have replicated. It is not clear what was
+learned from the episode, because the facial feedback hypothesis is not
+strongly linked to a broader paradigm positing boundary conditions and
+mechanisms; it is a label for an effect. When an effect stands on its
+own, rather than in relation to a paradigm, the implications a null
+result has for the progress of psychological science are
+unclear.\footnote{This is not to say that null results are not important
+  outside of Normal Science; it is just to say that their interpretation
+  depends on having a paradigmatic background against which to
+  understand them. Science is more than a catalog observations, but such
+  a catalog may be a crucial ingredient to a developing scientific
+  paradigm.}
+
+On the surface, psychology espouses the same standards of hypothesis
+testing as most mature sciences: a Popperian (1959) emphasis on
+falsificationism predicated hypotheses derived from explanatory
+paradigms. These typically constitute clear predictions that distinguish
+the underlying explanatory accounts of distinct paradigms, allowing for
+the specification and testing of theoretical boundary conditions which
+illuminate the cases in which a particular paradigm may be more or less
+explanatory compared to its rivals (McGuire, 2013). Within the context
+of psychology, theoretical boundary conditions necessarily take on a
+different character, given that \enquote{theories} are often little more
+than descriptions of phenomena, with \enquote{boundaries} that cannot
+extend beyond descriptions of individual effects.
+
+When falsification can no longer be tethered to the boundary conditions
+of explanatory paradigms, Popperian null hypothesis testing shifts to
+the reliability of individual effects; if an effect does not replicate
+as predicted, it has been \enquote{falsified} (Ferguson \& Heene, 2012).
+Accordingly, the historical emphasis on theory-framed hypothesis testing
+has been replaced by the statistical significance of hypothesized
+effects (e.g., Benjamin et al., 2018; Open Science Collaboration, 2012,
+2015; Simmons, Nelson, \& Simonsohn, 2011) where these predictions are
+increasingly tested against a pre-registered hypothesis for predicted
+outcomes. In a Normal Science setting, experimental hypotheses follow
+from predictions that themselves follow from well-developed theories,
+obviating the need for the pre-registration of the hypothesis. Moreover,
+replacing paradigmatic falsifiability with replicability of
+\emph{effects} discourages researchers from attending to the
+paradigmatic principles that allow for contextualized assessments of the
+evidential value of a given of replication \enquote{failure} (Stroebe \&
+Strack, 2014). This further entrenches, rather than opposes, the
+pre-paradigm nature of much of psychological science (also see Fiedler,
+Kutzner, \& Krueger, 2012).
+
+Acting within Normal Science, all three groups of experimenters we have
+highlighted --- Michelson and Morley, Mendel, and the LIGO team --- are
+celebrated for their careful experimentation. Michelson invented
 multiple iterations of his device to reduce the noise in his
 measurements. Mendel grew thousands of pea plants across 84 experiments
 to demonstrate his theory. The LIGO team invested a decade honing their
-experimental skills before finding a single gravitational wave. Recently
-some have worried that demanding high precision experiments will slow
-down scientific progress. We worry that scientific progress isn't
-possible without high-precision experiments. Admittedly,
-high-sensitivity experiments can be difficult in psychology due to both
-resource constraints and natural, poorly-understood human variability.
-Advances in research methods, practices, and attitudes --- both
-statistical and more broadly --- are needed to overcome these
-limitations.
-
-\textbf{Demonstration of positive effects requires the same rigor.} When
-interpreting both negative results and positive results, rigor is
-critical. The role of potential experimental error in interpreting
-negative results was highlighted by Mitchell (2014), who claimed that
-this possibility threatened the interpretation of negative replications
-(and by extension, negative results in general):
-
-\begin{quote}
-\enquote{Because experiments can be undermined by a vast number of
-practical mistakes, the likeliest explanation for any failed replication
-will always be that the replicator bungled something along the way.
-Unless direct replications are conducted by flawless experimenters,
-nothing interesting can be learned from them.} (p.~1)
-\end{quote}
-
-Indeed, Michelson's initial 1881 null result needed to be replicated
-with a more reliable apparatus. If a high-precision replication were not
-performed, Michelson's result would have been ignored.
-
-But this raises a critical question: if we do not trust that our
-colleagues were thorough and careful when they present us with negative
-results, why then do we trust them when they present us with positive
-results? Obtaining a positive result does not mean we are off the hook:
-detection of gravitational waves was claimed by the BICEP2 team in 2014
-(BICEP2 Collaboration et al., 2014). However, the result are now
-generally regarded as being confounded by galactic dust (Cowen, 2015).
-The BICEP2 team was right --- gravitational waves do exist --- but their
-experiment did not demonstrate it. The Nobel prize in physics went to
-the LIGO team.
-
-Collectively, the historic results of Michelson and Morley, Mendel, and
-the LIGO team show the importance of careful acceptances of null
-hypotheses in science. Michelson and Morley's null result allowed
-physics to move beyond the concept of a light-propagation medium.
-Mendel's null deviations from his theoretical predictions, flawed as
-they are, remain among the most celebrated findings in biology. The LIGO
-team's null results were part of a larger programme to develop the
-experimental tools they needed for the finding that eventially won them
-the highest prize in science. Carefully-interpreted null results are not
-failures, and should not be doomed to the file-drawer; in any healthy
-research programme, they must play a central role.
+experimental skills before finding a single gravitational wave. This
+attention to detail is possible when scientific progress is not defined
+by arguments over individual effects and statistical significance, but
+is rather guided by work within, or opposing, a broad paradigm. If
+psychology reasserts itself as a Normal Science, only then will it
+become a field unified by wide-ranging theoretical perspectives in which
+evidence for statistical regularities are valued at least as much as
+significant differences.
 
 \newpage
 
-\section{References}\label{references}
+\hypertarget{references}{%
+\section{References}\label{references}}
 
-\setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
 
 \hypertarget{refs}{}
-\hypertarget{ref-BICEP2:2014}{}
-BICEP2 Collaboration, Ade, P., Aikin, R., Barkats, D., Benton, S.,
-Bischoff, C., \ldots{} Duband, L. (2014). Detection of \({B}\)-Mode
-Polarization at Degree Angular Scales by BICEP2. \emph{Physical Review
-Letters}, \emph{112}(24), 241101. Retrieved from
-\url{https://link.aps.org/doi/10.1103/PhysRevLett.112.241101}
+\leavevmode\hypertarget{ref-Benjamin:etal:2018}{}%
+Benjamin, D. J., Berger, J., Johannesson, M., Nosek, B. A., Wagenmakers,
+E.-J., Berk, R., \ldots{} Johnson, V. (2018). Redefine statistical
+significance. \emph{Nature Human Behaviour}, \emph{2}, 6.
 
-\hypertarget{ref-Cowen:2015}{}
-Cowen, R. (2015). Gravitational waves discovery now officially dead.
-\emph{Nature News}. Retrieved from
-\url{http://www.nature.com/news/gravitational-waves-discovery-now-officially-dead-1.16830}
-
-\hypertarget{ref-Dobzhansky:1967}{}
+\leavevmode\hypertarget{ref-Dobzhansky:1967}{}%
 Dobzhansky, T. (1967). Looking back at Mendel's discovery.
 \emph{Science}, \emph{156}, 1588--1589.
 
-\hypertarget{ref-Edwards:1986}{}
+\leavevmode\hypertarget{ref-Edwards:1986}{}%
 Edwards, A. W. F. (1986). Are Mendel's results really too close?
 \emph{Biological Reviews}, \emph{61}, 295--312.
 
-\hypertarget{ref-Einstein:1905}{}
+\leavevmode\hypertarget{ref-Einstein:1905}{}%
 Einstein, A. (1905). Zur elektrodynamik bewegter körper {[}On the
 Electrodynamics of Moving Bodies; M. Saha, trans.{]}. \emph{Annalen Der
 Physik}, \emph{17}, 891--921.
 
-\hypertarget{ref-Eisele:etal:2009}{}
+\leavevmode\hypertarget{ref-Eisele:etal:2009}{}%
 Eisele, C., Nevsky, A. Y., \& Schiller, S. (2009). Laboratory test of
 the isotropy of light propagation at the \(10^{-17}\) level. \emph{Phys.
 Rev. Lett.}, \emph{103}, 090401. Retrieved from
 \url{https://link.aps.org/doi/10.1103/PhysRevLett.103.090401}
 
-\hypertarget{ref-Feynman:1985}{}
+\leavevmode\hypertarget{ref-Ferguson:Heene:2012}{}%
+Ferguson, C. J., \& Heene, M. (2012). A vast graveyard of undead
+theories: Publication bias and psychological science's aversion to the
+null. \emph{Perspectives on Psychological Science}, \emph{7}(6),
+555--561. Retrieved from \url{https://doi.org/10.1177/1745691612459059}
+
+\leavevmode\hypertarget{ref-Festinger:1957}{}%
+Festinger, L. (1957). \emph{A Theory of Cognitive Dissonance}. Stanford
+University Press.
+
+\leavevmode\hypertarget{ref-Feynman:1985}{}%
 Feynman, R. P. (1985). \emph{QED: The strange theory of light and
 matter}. Princeton University Press. Retrieved from
 \url{http://www.jstor.org/stable/j.ctt2jc8td}
 
-\hypertarget{ref-Fisher:1936}{}
+\leavevmode\hypertarget{ref-Fiedler:2004}{}%
+Fiedler, K. (2004). Tools, toys, truisms, and theories: Some thoughts on
+the creative cycle of theory formation. \emph{Personality and Social
+Psychology Review}, \emph{8}(2), 123--131. Retrieved from
+\url{https://doi.org/10.1207/s15327957pspr0802_5}
+
+\leavevmode\hypertarget{ref-Fiedler:etal:2012}{}%
+Fiedler, K., Kutzner, F., \& Krueger, J. I. (2012). The long way from
+\(\alpha\)-error control to validity proper: Problems with a
+short-sighted false-positive debate. \emph{Perspectives on Psychological
+Science}, \emph{7}(6), 661--669. Retrieved from
+\url{https://doi.org/10.1177/1745691612462587}
+
+\leavevmode\hypertarget{ref-Fisher:1936}{}%
 Fisher, R. A. (1936). Has Mendel's work been rediscovered? \emph{Annals
 of Science}, \emph{1}(2), 115--137. Retrieved from
 \url{http://dx.doi.org/10.1080/00033793600200111}
 
-\hypertarget{ref-Franklin:2008}{}
+\leavevmode\hypertarget{ref-Franklin:2008}{}%
 Franklin, A. (2008). The mendel-fisher controversy: An overview. In A.
 Franklin, A. W. F. Edwards, D. J. Fairbanks, D. L. Hartl, \& T.
 Seidenfeld (Eds.), \emph{Ending the mendel-fisher controversy} (pp.
 1--77). Pittsburg, PA: University of Pittsburg Press.
 
-\hypertarget{ref-LIGO:2014}{}
+\leavevmode\hypertarget{ref-Gigerenzer:etal:2004}{}%
+Gigerenzer, G., Krauss, S., \& Vitouch, O. (2004). The null ritual: What
+you always wanted to know about significance testing but were afraid to
+ask. In D. Kaplan (Ed.), \emph{The Sage handbook of quantitative
+methodology for the social sciences}. Thousand Oaks, CA: Sage.
+
+\leavevmode\hypertarget{ref-Kuhn:1962}{}%
+Kuhn, T. S. (1962). \emph{The structure of scientific revolutions}.
+Chicago: University of Chicago Press.
+
+\leavevmode\hypertarget{ref-Lakatos:1970}{}%
+Lakatos, I. (1970). History of science and its rational reconstructions.
+In \emph{Proceedings of the biennial meeting of the philosophy of
+science association} (pp. 91--136).
+
+\leavevmode\hypertarget{ref-LIGO:2014}{}%
 LIGO and Virgo Collaboration. (2014). Improved upper limits on the
 stochastic gravitational-wave background from 2009-2010 LIGO and virgo
 data. \emph{Phys. Rev. Lett.}, \emph{113}, 231101. Retrieved from
 \url{https://link.aps.org/doi/10.1103/PhysRevLett.113.231101}
 
-\hypertarget{ref-LIGO:2004}{}
+\leavevmode\hypertarget{ref-LIGO:2004}{}%
 LIGO Scientific Collaboration. (2004). First upper limits from LIGO on
 gravitational wave bursts. \emph{Phys. Rev. D}, \emph{69}, 102001.
 Retrieved from \url{https://link.aps.org/doi/10.1103/PhysRevD.69.102001}
 
-\hypertarget{ref-LIGO:2007}{}
+\leavevmode\hypertarget{ref-LIGO:2007}{}%
 LIGO Scientific Collaboration. (2007). Upper limits on gravitational
 wave emission from 78 radio pulsars. \emph{Phys. Rev. D}, \emph{76},
 042001. Retrieved from
 \url{https://link.aps.org/doi/10.1103/PhysRevD.76.042001}
 
-\hypertarget{ref-LIGO:2016}{}
+\leavevmode\hypertarget{ref-LIGO:2016}{}%
 LIGO Scientific Collaboration and Virgo Collaboration. (2016).
 Observation of gravitational waves from a binary black hole merger.
 \emph{Phys. Rev. Lett.}, \emph{116}, 061102. Retrieved from
 \url{https://link.aps.org/doi/10.1103/PhysRevLett.116.061102}
 
-\hypertarget{ref-Mendel:1866}{}
+\leavevmode\hypertarget{ref-McGuire:2013}{}%
+McGuire, W. J. (2013). An additional future for psychological science.
+\emph{Perspectives on Psychological Science}, \emph{8}(4), 414--423.
+Retrieved from \url{https://doi.org/10.1177/1745691613491270}
+
+\leavevmode\hypertarget{ref-Meehl:1978}{}%
+Meehl, P. E. (1978). Theoretical risks and tabular asterisks: Sir Karl,
+Sir Ronald, and the slow progress of soft psychology. \emph{Journal of
+Consulting and Clinical Psychology,} \emph{46}, 806--834. Retrieved from
+\url{http://www.psych.umn.edu/faculty/meehlp/113TheoreticalRisks.pdf}
+
+\leavevmode\hypertarget{ref-Mendel:1866}{}%
 Mendel, G. (1866). Versuche über Pflanzen-Hybriden (Bateson, Trans.).
 \emph{Verhandlungen des naturforschenden Vereines in Brünn}, \emph{42},
 3--47.
 
-\hypertarget{ref-Michelson:1881}{}
+\leavevmode\hypertarget{ref-Michelson:1881}{}%
 Michelson, A. A. (1881). The Relative Motion of the Earth and the
 Luminiferous Ether. \emph{American Journal of Science}, \emph{22},
 120--129.
 
-\hypertarget{ref-Michelson:Morley:1887}{}
+\leavevmode\hypertarget{ref-Michelson:Morley:1887}{}%
 Michelson, A. A., \& Morley, E. W. (1887). On the Relative Motion of the
 Earth and the Luminiferous Ether. \emph{American Journal of Science},
 \emph{34}, 333--345.
 
-\hypertarget{ref-Mitchell:2014}{}
-Mitchell, J. (2014). \emph{On the evidentiary emptiness of failed
-replications}. Retrieved from
-\url{http://jasonmitchell.fas.harvard.edu/Papers/Mitchell_failed_science_2014.pdf}
+\leavevmode\hypertarget{ref-OpenScienceCollaboration:2012}{}%
+Open Science Collaboration. (2012). An open, large-scale, collaborative
+effort to estimate the reproducibility of psychological science.
+\emph{Perspectives on Psychological Science}, \emph{7}, 652--655.
 
-\hypertarget{ref-Piegorsch:1990}{}
+\leavevmode\hypertarget{ref-OpenScienceCollaboration:2015}{}%
+Open Science Collaboration. (2015). Estimating the reproducibility of
+psychological science. \emph{Science}, \emph{349}(6521), 943. Retrieved
+from
+\href{dx.doi.org/10.1126/science.aac4716\%20}{dx.doi.org/10.1126/science.aac4716 }
+
+\leavevmode\hypertarget{ref-Piegorsch:1990}{}%
 Piegorsch, W. W. (1990). Fisher's contributions to genetics and
 heredity, with special emphasis on the gregor mendel controversy.
 \emph{Biometrics}, \emph{46}(4), 915--924. Retrieved from
 \url{http://www.jstor.org/stable/2532437}
 
-\hypertarget{ref-Pilgrim:1984}{}
+\leavevmode\hypertarget{ref-Pilgrim:1984}{}%
 Pilgrim, I. (1984). The too-good-to-be-true paradox and Gregor Mendel.
 \emph{Journal of Heredity}, \emph{75}(6), 501--502. Retrieved from
 \url{https://academic.oup.com/jhered/article/75/6/501/876950}
 
-\hypertarget{ref-Ritz:1908}{}
+\leavevmode\hypertarget{ref-Popper:1959}{}%
+Popper, K. (1959). \emph{Logic of scientific discovery} (2002
+eLibrary.). London: Routledge Classics.
+
+\leavevmode\hypertarget{ref-Ritz:1908}{}%
 Ritz, W. (1908). Recherches critiques sur l'électrodynamique générale
 {[}Critical researches on general electrodynamics; J. Lucier, trans.{]}.
 \emph{Annales de Chimie et de Physique}, \emph{13}, 145--275. Retrieved
 from \url{http://www.datasync.com/~rsf1/crit/1908a.htm}
 
-\hypertarget{ref-Shepherd:etal:1993}{}
+\leavevmode\hypertarget{ref-Shepherd:etal:1993}{}%
 Shepherd, G. G., Thuillier, G., Gault, W. A., Solheim, B. H., Hersom,
 C., Alunni, J. M., \ldots{} Harvie. (1993). WINDII, the wind imaging
 interferometer on the Upper Atmosphere Research Satellite. \emph{Journal
@@ -1037,13 +1196,56 @@ of Geophysical Research: Atmospheres}, \emph{98}(D6), 10725--10750.
 Retrieved from
 \url{http://onlinelibrary.wiley.com/doi/10.1029/93JD00227/abstract}
 
-\hypertarget{ref-LIGO:2005}{}
+\leavevmode\hypertarget{ref-Simmons:etal:2011}{}%
+Simmons, J. P., Nelson, L. D., \& Simonsohn, U. (2011). False-positive
+psychology: Undisclosed flexibility in data collection and analysis
+allows presenting anything as significant. \emph{Psychological Science},
+\emph{22}, 1359--1366. Retrieved from
+\url{https://doi.org/10.1177/0956797611417632}
+
+\leavevmode\hypertarget{ref-Simmons:Simonsohn:2017}{}%
+Simmons, J. P., \& Simonsohn, U. (2017). Power Posing: P-Curving the
+Evidence. \emph{Psychological Science}, \emph{28}(5), 687--693.
+Retrieved from \url{http://dx.doi.org/10.1177/0956797616658563}
+
+\leavevmode\hypertarget{ref-Sterling:etal:1995}{}%
+Sterling, T. D., Rosenbaum, W. L., \& Weinkam, J. J. (1995). Publication
+decisions revisited: The effect of the outcome of statistical tests on
+the decision to publish and vice versa. \emph{The American
+Statistician}, \emph{49}(1), 108--112. Retrieved from
+\url{https://www.tandfonline.com/doi/abs/10.1080/00031305.1995.10476125}
+
+\leavevmode\hypertarget{ref-Strack:2016}{}%
+Strack, F. (2016). Reflection on the smiling registered replication
+report. \emph{Perspectives on Psychological Science}, \emph{11}(6),
+929--930. Retrieved from \url{https://doi.org/10.1177/1745691616674460}
+
+\leavevmode\hypertarget{ref-Strack:etal:1988}{}%
+Strack, F., Martin, L. L., \& Stepper, S. (1988). Inhibiting and
+facilitating conditions of the human smile: A nonobtrusive test of the
+facial feedback hypothesis. \emph{Journal of Personality and Social
+Psychology}, \emph{54}(5), 768--777.
+
+\leavevmode\hypertarget{ref-Stroebe:Strack:2014}{}%
+Stroebe, W., \& Strack, F. (2014). The alleged crisis and the illusion
+of exact replication. \emph{Perspectives on Psychological Science},
+\emph{9}(1), 59--71. Retrieved from
+\url{https://doi.org/10.1177/1745691613514450}
+
+\leavevmode\hypertarget{ref-LIGO:2005}{}%
 The LIGO Scientific Collaboration. (2005). Upper limits on gravitational
 wave bursts in LIGO's second science run. \emph{Phys. Rev. D},
 \emph{72}, 062001. Retrieved from
 \url{https://link.aps.org/doi/10.1103/PhysRevD.72.062001}
 
-\hypertarget{ref-Weldon:1902}{}
+\leavevmode\hypertarget{ref-Wagenmakers:etal:2016b}{}%
+Wagenmakers, E.-J., Beek, T., Dijkhoff, L., Gronau, Q. F., Acosta, A.,
+R. B. Adams, J., \ldots{} Zwaan, R. A. (2016). Registered replication
+report: Strack, martin, \& stepper (1988). \emph{Perspectives on
+Psychological Science}, \emph{11}(6), 917--928. Retrieved from
+\url{https://doi.org/10.1177/1745691616674458}
+
+\leavevmode\hypertarget{ref-Weldon:1902}{}%
 Weldon, W. F. R. (1902). Mendel's laws of alternative inheritance in
 peas. \emph{Biometrika}, \emph{1}, 228--254.
 

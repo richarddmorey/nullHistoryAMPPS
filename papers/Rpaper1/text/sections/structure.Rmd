@@ -33,6 +33,8 @@ opts_knit$set(width=75)
 ```{r child='introduction.Rmd'}
 ```
 
+```{r child='philosophy.Rmd'}
+```
 
 ```{r child='section1.Rmd'}
 ```

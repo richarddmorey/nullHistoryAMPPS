@@ -1,6 +1,6 @@
 ---
 title: "`r readLines('../meta_data/title.txt')`"
-author: Richard D. Morey and Saskia Homer
+author: Richard D. Morey, Saskia Homer, and Travis Proulx
 date: "`r Sys.Date()`"
 bibliography: ../bib/bibfile.bib
 output:

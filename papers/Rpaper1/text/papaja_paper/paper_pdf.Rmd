@@ -14,6 +14,12 @@ author:
     address       : "School of Psychology, 70 Park Place, Cardiff, UK"
     email         : "homerse@cardiff.ac.uk"
 
+  - name          : "Travis Proulx"
+    affiliation   : "1"
+    corresponding : no    # Define only one corresponding author
+    address       : "School of Psychology, 70 Park Place, Cardiff, UK"
+    email         : "ProulxT@cardiff.ac.uk"
+
 affiliation:
   - id            : "1"
     institution   : "School of Psychology, Cardiff University"
@@ -27,8 +33,8 @@ author_note: >
 abstract: >
   `r readLines('../meta_data/abstract.txt')`
   
-keywords          : "paper"
-wordcount         : "5987"
+keywords          : "null hypothesis, philosophy of science, statistics"
+wordcount         : ""
 
 bibliography      : ../bib/bibfile.bib
 
