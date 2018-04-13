@@ -6,9 +6,6 @@
 * PDF version of the text:
 https://github.com/richarddmorey/nullHistoryAMPPS/blob/master/papers/Rpaper1/text/papaja_paper/paper_pdf.pdf
 
-* PDF version of the text:
-https://github.com/richarddmorey/nullHistoryAMPPS/blob/master/papers/Rpaper1/text/papaja_paper/paper_pdf.pdf
-
 * Data from Michelson & Morley ([1887](https://en.wikisource.org/wiki/On_the_Relative_Motion_of_the_Earth_and_the_Luminiferous_Ether)):
 https://github.com/richarddmorey/nullHistoryAMPPS/blob/master/papers/Rpaper1/figures/data/MM_data_1887_data.txt
 
